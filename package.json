@@ -1,0 +1,23 @@
+{
+  "name": "node-docker-jenkins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm install inherits && mocha"
+  },
+  "keywords": [],
+  "author": "Mayank Khanna",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "inherits": "^2.0.4",
+    "mocha": "^8.2.1",
+    "ms": "^2.1.3"
+  }
+}
