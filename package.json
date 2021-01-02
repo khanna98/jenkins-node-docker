@@ -1,8 +1,11 @@
 {
   "name": "node-docker-jenkins",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple nodejs app for practicing Docker and Jenkins.",
   "main": "index.js",
+  "repository": {
+    "url": "https://github.com/khanna98/jenkins-node-docker.git"
+  },
   "scripts": {
     "start": "node index.js",
     "test": "npm install inherits && mocha"
